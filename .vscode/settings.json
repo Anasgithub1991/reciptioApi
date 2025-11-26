@@ -1,0 +1,31 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "100.110.77.34",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Aiham-Desktop",
+            "group": "PostgreSQL",
+            "database": "weaponid",
+            "username": "postgres",
+            "password": "@admin00"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "SQL Local",
+            "group": "SQL Server",
+            "database": "text_DB",
+            "username": "SA",
+            "password": "@admin00"
+        }
+    ]
+}
